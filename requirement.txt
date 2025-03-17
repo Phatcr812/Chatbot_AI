@@ -1,0 +1,7 @@
+flask
+flask-cors
+requests
+qdrant-client
+sentence-transformers
+python-dotenv
+    
