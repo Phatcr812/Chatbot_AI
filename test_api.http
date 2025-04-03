@@ -2,12 +2,7 @@ POST http://127.0.0.1:5000/chat
 Content-Type: application/json
 
 {
-    "message": "i need pants",
-    "language_id": 2
+    "message": "I'm looking for a white shirt around 1 million VND"
 }
 
-# {
-#     "message": "tôi cần 1 áo ",
-#     "language_id": 11
-# }
 

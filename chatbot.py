@@ -1,8 +1,8 @@
 import requests
 
-TOGETHER_AI_API_KEY = "API"
+TOGETHER_AI_API_KEY = "sk-04432f3be2224edf917d2409281e9b6c"
 
-TOGETHER_AI_URL = "https://api.together.ai/v1/chat/completions"
+TOGETHER_AI_URL = "https://api.deepseek.com/v1"
 
 def chat_with_ai(user_input, chat_history=[]):
     headers = {
@@ -11,7 +11,7 @@ def chat_with_ai(user_input, chat_history=[]):
     }
 
     payload = {
-        "model": "mistral-7b-instruct",
+        "model": "deepseek-chat",
         "messages": chat_history + [{"role": "user", "content": user_input}],
         "temperature": 0.7
     }
