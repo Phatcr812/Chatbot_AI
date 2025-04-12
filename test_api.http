@@ -2,7 +2,7 @@ POST http://127.0.0.1:5000/chat
 Content-Type: application/json
 
 {
-    "message": "I'm looking for a white shirt around 1 million VND"
+    "message": "Xin chào"
 }
 
 
